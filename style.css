@@ -1,0 +1,87 @@
+
+		html{
+			height: 100%;
+		}
+		@font-face{
+			src:url(18473.ttf);
+			font-family: my-font;
+		}
+		body{
+			font-family: my-font;
+			color: white;
+			height: 100%;
+		}
+		/*главная*/
+		.school{
+			position: absolute;
+			top:20%;
+			left: 70%;
+			width: 100px;
+			height: 100px;
+		}
+		.mastery{
+			top:60%;
+			position: absolute;
+			left:40%;
+			width: 100px;
+			height: 100px;
+		}
+		.main_player{
+			position: absolute;
+			top:50%;
+			left: 50%;
+			transition:  0.8s;
+		}
+		.arena{
+			position: absolute;
+			top:25%;
+			left: 35%;
+			width: 100px;
+			height: 100px;
+		}
+		.cup{
+			height: 46px;
+			width: 60px;
+			background-image: url(fake.png);
+			margin-top: 10px;
+
+		}
+		.sword {
+			width: 130px; border: white 2px solid; display: none
+		}
+
+		.nojni {
+			width: 130px; border: white 2px solid; display: none
+		}
+		.shield {
+			width: 130px; border: white 2px solid; display: none
+		}
+
+		.loc3bg{
+			
+		}
+		.entity{
+			height: 46px;
+			width: 84px;
+			background-image: url(krot.png);
+			position: absolute;
+			background-size: 100% 100%;
+		}
+		.boss{
+			height: 100px;
+			width: 100px;
+			background-color: red;
+		}
+	    .win{
+			background-image: url(win.jpg);
+        	height: 1000px;
+        	width: 2000px;
+        	display: none;
+        	position: absolute;
+        	background-size: 100% 100%;
+		}
+		.line{
+			display: flex;
+			margin-top: 500px;
+			margin-left: 750px;
+		}
